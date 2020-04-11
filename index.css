@@ -1,0 +1,83 @@
+.head {
+    margin: 30px;
+}
+
+html {
+    background-color: white;
+}
+
+h1 {
+    position: relative;
+    left: 10px;
+    color: chocolate;
+    display: inline-block;
+    margin-left: 112px;
+}
+
+#doli {
+    outline: none;
+    border-style: none;
+    text-align: center;
+    position: relative;
+    width: 81%;
+    height: 24px;
+}
+
+#csid {
+    margin: 10px;
+}
+
+#fieldset {
+    display: inline-block;
+    position: relative;
+    width: 455px;
+    height: 20px;
+    border-color: pink;
+}
+
+#abt {
+    position: absolute;
+    border-style: none;
+    color: pink;
+    background-color: purple;
+    width: 88px;
+    height: 39.59px;
+    left: 434px;
+}
+
+.btcss {
+    border-style: none;
+    color: pink;
+    background-color: purple;
+    width: 88px;
+    height: 39.59px;
+    left: 1000px;
+}
+
+.licss {
+    text-align: left;
+    padding: 0;
+}
+
+#ulid {
+    padding: 0;
+}
+
+.table-head {
+    margin: 30px;
+    width: 483px;
+    height: 100px;
+}
+
+th, td { 
+    border: 1px solid;
+}
+
+#bts {
+    display: inline-block;
+    margin-left: 180px;
+}
+
+.ccc {
+    margin: 10px;
+}

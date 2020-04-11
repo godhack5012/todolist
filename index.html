@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>HK-ToDoList</title>
+        <link rel="stylesheet" href="./index.css" />
+    </head>
+
+    <body>
+
+        <div class="head">
+            <div>
+            <h1>To Do List - HK</h1>
+            </div>
+            <fieldset id='fieldset'>
+                <input type="text" id="doli" />
+            </fieldset>
+            <button onclick='cabt()' id='abt'>추가</button>
+        </div>
+            <table class="table-head">
+                <colgroup>
+                </colgroup>
+                    <thead>
+                        <tr>
+                            <th>To Do List</th>
+                        </tr>
+                    </thead>
+                    <tbody class="table-body">
+                        <tr>
+                            <th>
+                            <ul id="ulid"></ul>
+                            </th>
+                        </tr>
+                    </tbody>
+            </table>
+            <div id="bts">
+            <button onclick='cdbt()' id='dbt' class='btcss'>선택 삭제</button>
+            <button onclick='cdabt()' id='dabt' class='btcss'>전체 삭제</button>
+            </div>
+        <script type="text/javascript" src="./index.js"></script>
+    </body>
+</html>
